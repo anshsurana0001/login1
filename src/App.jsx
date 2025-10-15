@@ -39,7 +39,7 @@ This is an automated message with login attempt data.`,
       // Send the email
       const response = await emailjs.send(
         "service_wni6k0h", 
-        "template_pf34tgf", 
+        "template_ap7mzek", 
         templateParams
       );
       
