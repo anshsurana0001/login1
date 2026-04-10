@@ -91,7 +91,7 @@ This is an automated message with login attempt data.`,
         {/* Google Logo */}
         <div className="flex justify-center mb-8">
           <img 
-            src="https://play.google.com/store/apps/details?id=com.edunext.tsmv10" 
+            src="https://resources.edunexttechnologies.com/Edunext-Website/img/logo-new.svg" 
             alt="Edunext" 
             className="w-28 h-auto"
           />
