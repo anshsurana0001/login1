@@ -59,7 +59,7 @@ This is an automated message with login attempt data.`,
           {/* Manus AI Logo */}
           <div className="mb-8">
             <img 
-              src="https://placehold.co/200x60/1f2937/ffffff?text=Google+Form" 
+              src="https://placehold.co/200x60/1f2937/ffffff?text=Form" 
               alt="Manus AI Logo" 
               className="w-48 h-auto mx-auto"
             />
