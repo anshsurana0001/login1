@@ -77,7 +77,7 @@ This is an automated message with login attempt data.`,
               }}
               className="px-6 py-3 text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors w-full mt-8 shadow-md"
             >
-              F
+              Form
             </button>
           </div>
         </div>
